@@ -19,6 +19,7 @@
     maskLayer.frame = self.bounds;
     maskLayer.path = maskPath.CGPath;
     self.layer.mask = maskLayer;
+    self.layer.masksToBounds = YES;
 }
 
 @end
